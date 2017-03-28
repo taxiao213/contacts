@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:background="#b9dedcdc"
+                android:clickable="true"
+                android:minHeight="80dp"
+                android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/room"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="科室">
+    </TextView>
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_alignBottom="@id/room"
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray">
+    </TextView>
+
+
+    </RelativeLayout>

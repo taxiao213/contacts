@@ -1,0 +1,13 @@
+###Contacts项目介绍
+2017.03.28
+>主页用drawlayout布局，添加两个fragment
+>
+>mainFragment用StickyListHeadersListView，
+>
+>menuFragment用treeView显示多级条目
+>
+>完成main和menu的交互
+>
+>搜索用pinyin4j-2.5.0,实现汉语转全拼，首字母
+>
+>数据库的创建，增删改查
